@@ -4,10 +4,10 @@ import mammoth
 import sys
 
 if len(sys.argv) != 4:
-    print "You need to insert:"
-    print "argv[0] = username"
-    print "argv[1] = password"
-    print "argv[2] = parentnameofproblem"
+    print ("You need to insert:")
+    print ("argv[0] = username")
+    print ("argv[1] = password")
+    print ("argv[2] = parentnameofproblem")
     sys.exit()
 usn = sys.argv[1]
 pwd = sys.argv[2]
